@@ -1,0 +1,43 @@
+--Clone the repository.
+--Switch to develop and pull the latest changes.
+--Create a new feature branch from develop.
+--Work on your feature by editing files, staging, committing, and pushing.
+--Rebase your feature branch onto develop to keep it up-to-date.
+--Push your feature branch to GitHub.
+--Create a Pull Request (PR) on GitHub to merge your feature branch into develop.
+--Address any feedback and update the PR.
+--Once approved, merge the PR into develop.
+--Sync your local develop branch with the latest changes.
+--Delete the local and remote feature branch.
+
+
+
+
+
+
+
+CLONE THE PROJECT----------------------------------------------------------------------------
+git clone https://github.com/{organization}/{repository}
+
+GO TO DEVELOP BRANCH-------------------------------------------------------------------------
+git checkout develop
+
+CREATE A FEATURE BRANCH----------------------------------------------------------------------
+git checkout -b feature/new-feature
+
+WORK ON THE BRANCH-------------------------------------------------------------------------------------------
+
+STAGE CHANGES--------------------------------------------------------------------------------
+git add .
+
+COMMIT CHANGES TO LOCAL REPOSITORY ON YOUR MACHINE-----------------------------------------------------------
+git commit -m "{MESSAGE}"
+
+COMMIT CHANGES TO THE LOCAL REPOSITORY OF YOUR GITHUB----------------------------------
+git push origin feature/new-feature
+
+NOW GO AND RAISE A MERGE REQUEST
+
+
+
+
